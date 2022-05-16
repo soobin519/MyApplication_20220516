@@ -7,17 +7,16 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="15dp"
-    tools:context=".MainActivity">
+    tools:context=".OtherActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="여기는 메인 화면 입니다."/>
+        android:text="여기는 다른 화면 입니다."/>
 
     <Button
-        android:id="@+id/btnMoveToOther"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="다른 화면으로 이동하기"/>
+        android:text="메인 화면으로 이동하기"/>
 
 </LinearLayout>
