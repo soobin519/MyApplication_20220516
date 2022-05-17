@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     android:padding="15dp"
     tools:context=".MainActivity">
 
@@ -31,6 +30,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="다른 화면에서 위에서 입력한 문구 보여주기"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txtNickname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="채숩"
+            android:layout_weight="1"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/btnEditNickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="변경하기"/>
+
+    </LinearLayout>
 
 
 
