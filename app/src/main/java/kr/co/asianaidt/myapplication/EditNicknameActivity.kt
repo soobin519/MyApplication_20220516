@@ -18,7 +18,7 @@ class EditNicknameActivity : AppCompatActivity() {
             //2. 변수에 담은 닉네임을 돌아가는 길에 첨부 (intent활용)
             val resultIntent = Intent() //단순 첨부용 => 출발/목적지 표시 x
 
-            resultIntent.putExtra("nickname", inputNickname)
+            resultIntent.putExtra("nick", inputNickname)
 
             //3. ok를 누른게 맞다고 추가 표시
             setResult(RESULT_OK, resultIntent)
